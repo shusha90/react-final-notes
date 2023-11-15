@@ -1,0 +1,50 @@
+ms 6 not done 
+
+PS C:\Users\shusha\github-classroom\israeltechchallenge\react-notes-app-shusha90> npm run build
+
+> notes-app@0.0.0 build
+
+vite v4.5.0 building for production...
+✓ 340 modules transformed.
+dist/index.html                   0.45 kB │ gzip:  0.30 kB
+dist/assets/index-fb6b1784.css  233.35 kB │ gzip: 31.61 kB
+dist/assets/index-c9b2373a.js   200.00 kB │ gzip: 64.82 kB
+✓ built in 3.65s
+PS C:\Users\shusha\github-classroom\israeltechchallenge\react-notes-app-shusha90> npm install -g netlify-cli
+npm WARN deprecated source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+npm WARN deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+
+changed 1391 packages in 7m
+
+209 packages are looking for funding
+  run `npm fund` for details
+PS C:\Users\shusha\github-classroom\israeltechchallenge\react-notes-app-shusha90> netlify loginnetlify login
+ »   Warning: loginnetlify is not a netlify command.
+? Did you mean login Yes
+
+
+Run netlify status for account details
+
+or run netlify switch to switch accounts
+
+To see all available commands run: netlify help
+
+PS C:\Users\shusha\github-classroom\israeltechchallenge\react-notes-app-shusha90> netlify login
+
+Run netlify status for account details
+
+or run netlify switch to switch accounts
+
+To see all available commands run: netlify help
+
+PS C:\Users\shusha\github-classroom\israeltechchallenge\react-notes-app-shusha90> netlify init
+? Your build command (hugo build/yarn run build/etc): # no build command
+? Directory to deploy (blank for current dir): netlify deploy
+
+Adding deploy key to repository...
+ »   Error: Failed retrieving GitHub repository information with error: Although you appear to have the correct authorization credentials, the `israeltechchallenge` organization has enabled OAuth App access restrictions, meaning that data access to third-parties is limited. For more information on these restrictions, including how to enable this app, visit https://docs.github.com/articles/restricting-access-to-your-organization-s-data/
+PS C:\Users\shusha\github-classroom\israeltechchallenge\react-notes-app-shusha90> netlify init
+? Your build command (hugo build/yarn run build/etc): netlify deploy
+? Directory to deploy (blank for current dir): dist
+
